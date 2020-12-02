@@ -1,0 +1,125 @@
+input {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	/*border-radius: 5px;*/
+}
+
+#navbar, #booknavbar {
+  display: flex;
+  align-items: center;  
+  background-color: black;
+  color: white;
+  height: 80px;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+#topbar {
+	display: flex;
+}
+#topbar ul {
+	/*display: inline-block;*/
+	margin: 10px;
+}
+#topbar li {
+	cursor: pointer;
+	/*padding: 6px;*/
+	display: inline;
+}
+#topbar a {
+	padding: 10px;
+	transition: 0.2s;
+}
+#topbar a:hover {
+	background-color: #4d94ff;
+	box-shadow: 0 0 20px #2196f3;
+}
+#topbar-right {
+	position: absolute;
+	right: 50px;
+	top: 18px;
+}
+
+#logo {
+	font-size: 2rem;	
+}
+
+.articles {
+	/*display: grid;*/
+	/*grid-template-columns: repeat(2, 1fr);*/
+	/*grid-gap: 10px;*/
+	/*justify-content: space-evenly;*/
+	margin: 20px 4vW;
+}
+.articleCard {
+	/*float: left;*/
+  background-color: white;
+  color: black;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black
+	/*border-radius: 10px;*/
+}
+.article {
+	background-color: #eeeeee;
+	padding: 20px;
+	margin: 20px auto;
+}
+
+.linkStyle {
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.btn {
+	background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,107,141,1) 0%, rgba(0,69,91,1) 90% );
+	color: white;
+	padding: 10px 20px;
+	margin: 0 5px;
+	border: none;
+	border-radius: 5px;
+}
+.btn:hover {
+	cursor: pointer;
+	background-color: #4d94ff;
+	box-shadow: 0 0 10px #2196f3;
+}
+
+.formDiv {
+	/*text-align: center;*/
+	margin: 20px auto;
+	padding: 0 10px;
+	max-width: 600px;
+	box-sizing: border-box;
+}
+
+.form {
+	margin: 10px auto;
+	max-width: 600px;
+}
+
+.formInput {
+	margin: 10px;
+}
+
+.options {
+	margin: 10px 0;
+}
+
+.tag {
+	background-color: white;
+	margin-left: 4px;
+}
+
+.vmargin {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.articleData {
+	/*display: grid;*/
+	/*grid-template-columns: repeat(3, 1fr);*/
+}
