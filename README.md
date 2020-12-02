@@ -1,5 +1,9 @@
+A simple hackernews clone (still in works)
+
 Find the deployment at:
 https://mighty-woodland-79887.herokuapp.com/
+
+Login to create and update articles
 
 To run this project locally:
 1. Clone this repository
